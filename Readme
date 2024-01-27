@@ -1,1 +1,39 @@
-https://loyaltyrewardsclusteringproject-d8zkcgqr5pzuvuq58anhfw.streamlit.app/
+* You can interact with the deployed application on the cloud by visiting the following link:(https://loyaltyrewardsclusteringproject-d8zkcgqr5pzuvuq58anhfw.streamlit.app/)
+Feel free to explore the personalized recommendations and gain insights into the loyalty rewards program!
+
+- Overview
+This data science project focuses on analyzing a dataset from a loyalty rewards program sponsored by retailers and businesses. The program aims to attract and retain customers by rewarding them with points for each transaction, encouraging repeat purchases, and building brand loyalty.
+
+- Dataset
+The dataset contains valuable information about customer transactions, including transaction rank, points redeemed, transaction value, transaction age, customer age, merchant category, user ID, and merchant ID.
+- Project Goals
+The primary goal of this project is to analyze the loyalty rewards program's performance and gain insights into customer behavior. The project involves the following steps:
+
+1. Data Exploration and Preprocessing:
+   - Understand dataset characteristics.
+   - Handle data quality issues such as duplicates or outliers.
+   - Utilize descriptive statistics and visualizations for insights.
+
+2. Customer Segmentation Analysis:
+   - Identify customer groups based on transaction behavior and redemption patterns.
+   - Create pivot tables summarizing customer behavior for each merchant category.
+   - Apply clustering algorithms to cluster customers based on transaction behavior.
+   - Visualize results using histograms to showcase top categories for each customer cluster.
+
+3. Recommendation System Development:
+   - Develop a recommendation system using customer clusters.
+   - Create a function that takes a user ID and the desired number of recommendations.
+   - Retrieve the user's assigned cluster, filter data, and generate top recommendations based on transaction values for each merchant.
+
+4. Deployment using Streamlit:
+   - Deploy the recommendation system using Streamlit.
+   - Allow users to enter their ID and desired number of recommendations.
+   - Generate personalized recommendations based on the developed recommendation function.
+  
+
+5. Skills Demonstrated
+
+  - Data preprocessing and exploratory data analysis.
+  - Customer segmentation using clustering algorithms.
+  - Development of a personalized recommendation system.
+  - Deployment of machine learning models using Streamlit.
