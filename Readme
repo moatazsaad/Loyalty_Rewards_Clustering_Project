@@ -1,32 +1,29 @@
-                                       Loyal System Segmentation and Personalized Recommendations
-- Project Overview:
-The goal of this data science project is to study customer behavior and preferences to create an effective reminder system in a loyalty rewards program sponsored by 
-retailers and businesses. The system aims to understand each customer's preferences and send targeted reminders, encouraging them to redeem their points at specific 
-preferred stores. The dataset used in this project contains valuable information about customer transactions, including transaction rank, points redeemed, 
-transaction value, transaction age, customer age, merchant category, user ID, and merchant ID.
+1- Overview:
+  The goal of this data science project is to study customer behavior and preferences to create an effective reminder system in a loyalty rewards program sponsored by 
+  retailers and businesses. The system aims to understand each customer's preferences and send targeted reminders, encouraging them to redeem their points at specific 
+  preferred stores. The dataset used in this project contains valuable information about customer transactions, including transaction rank, points redeemed, 
+  transaction value, transaction age, customer age, merchant category, user ID, and merchant ID.
 
-- Steps Involved:
-
-1- Data Exploration and Preprocessing:
+2- Data Exploration and Preprocessing:
   Conducted exploratory data analysis and preprocessing to handle data quality issues, such as duplicates or outliers.
   Utilized descriptive statistics and visualizations to gain insights into the distributions of key features like transaction rank,
   points, transaction age, and customer age.
 
-2- Customer Segmentation Analysis:
+3- Customer Segmentation Analysis:
   Identified different groups of customers based on their transaction behavior and redemption patterns.
   Applied clustering algorithms, specifically DBSCAN, to cluster customers effectively.
   Visualized and analyzed the top categories for each customer cluster.
 
-3- Recommendation System Development:
+4- Recommendation System Development:
   Developed a recommendation system that provides personalized recommendations based on the customer's assigned cluster.
   Created a function that takes a user ID and the desired number of recommendations as input, filtering the data for that cluster,
   and generating top recommendations by aggregating transaction values for each merchant.
 
-4- Deployment Using Streamlit:
+5- Deployment Using Streamlit:
   Deployed the recommendation system using Streamlit, a platform for creating interactive data science applications.
   The deployed application allows users to enter their user ID and the number of recommendations they want, generating personalized recommendations based on the developed recommendation function.
 
-* Usage
+6- Usage:
 You can interact with the deployed application on the cloud by visiting the following link:
 (https://loyaltyrewardsclusteringproject-d8zkcgqr5pzuvuq58anhfw.streamlit.app/)
 Feel free to explore the personalized recommendations by entering your User ID and the desired number of recommendations in the Streamlit application.
